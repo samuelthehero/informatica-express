@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Registrarse</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="../Estilos/Estilosformulario.css" />
+</head>
+<body>
+    <form  class="forma" action="#" id="forma" runat="server">
+        <div>
+            <ul>
+                <li>
+                    <h2>Contactos</h2>
+                    <span class="Datos">* Datos requeridos</span>
+                </li>
+                <li>
+                    <label for="name">Nombre y Apellidos:</label>
+                    <input type="text" placeholder="Alejandro Ruíz" required />
+                </li>
+                <li>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="alejRuiz@gmail.com" required />
+                    <span class="email">Formato correcto: "name@something.com"</span>
+                </li>
+                <li>
+                    <label for="contrasena">Contraseña:</label>
+                    <input type="password" placeholder="contraseña" required />
+                </li>
+                <li>
+                    <label for="contrasena">Repite la contraseña:</label>
+                    <input type="password" placeholder="contraseña" required />
+                </li>
+                <li>
+                    <button class="submit" type="submit">Darme de alta</button>
+                </li>
+            </ul>
+        </div>
+    </form>
+</body>
+</html>

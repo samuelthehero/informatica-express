@@ -1,0 +1,28 @@
+body {
+	background-image: url("../Imagenes/Marvel-Poster.jpg");
+}
+h1 {
+	text-align: center;
+	color: #FF8000;
+	background: black;
+	border-style: solid;
+	width: 150px;
+	height: 40px;
+	margin-left: 600px;
+}
+div {
+	padding: 3em;
+	text-align: justify;
+	width: 800px;
+	height: 1000px;
+	background-color: #FF8000;
+	margin-left: 250px;
+}
+p {
+	margin-top: -10px;
+}
+img {
+	border-style: solid;
+	margin-left: 170px;
+	margin-top: 50px;
+}

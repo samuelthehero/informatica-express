@@ -1,0 +1,35 @@
+body {
+	background-image: url(../Imagenes/MARVELSTUDIOS.jpg);
+}
+h1 {
+	color: yellow;
+	text-align: center;
+	background-color: black;
+	border-style: solid;
+	width: 100px;
+	margin-left: 600px;
+}
+.contenedor {
+	background-color: #BDBDBD;
+	width: 500px;
+	height: 500px;
+	margin-left: 430px;
+}
+.tabla1 {
+	margin-left: 55px;
+	width: 310px;
+	height: 300px;
+	border: 1px solid;
+}
+.tabla1 tr, .tabla1 th {
+	border: 1px solid #000;
+	background-color: green;
+}
+p {
+	color: none;
+	padding: 1em;
+	text-align: center;
+}
+img {
+	width: 60px;
+}
